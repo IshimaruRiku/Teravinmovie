@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "TeravinMovie",
+    "slug": "TeravinMovie",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/load.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#999"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.teravinmovie",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.teravinmovie",
+      "versionCode": 1
+    }
+  }
+}
